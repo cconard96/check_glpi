@@ -8,7 +8,7 @@ use JSON;
 use Nagios::Monitoring::Plugin;
 use Data::Dumper;
 
-my $version = "1.0.0-beta-1";
+my $version = "1.0.0";
 my $user_agent = "check_glpi/1.0";
 
 my $np = Nagios::Monitoring::Plugin->new(
