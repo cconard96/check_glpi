@@ -2,6 +2,7 @@
 
 ## Prerequisites
 - Nagios::Monitoring::Plugin Perl module
+- JSON Perl module
 - GLPI >= 10.0.0
 
 ## Installation
