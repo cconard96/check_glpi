@@ -53,3 +53,17 @@ Arguments
 
 Example: 
 `check_json.pl --host 192.168.1.100 --protocol https --port 8443 --subdirectory glpi --service db'`
+
+## GLPI Services
+Use the `glpi:system:list_services` command with GLPI's CLI to identify the services that have their status available through GLPI's status checker.
+A non-exhaustive list of these services can be found below:
+| Service         | Description |
+|-----------------|------------ |
+| db              | Database status including the master and slave database servers
+| cas             | CAS authentication server status
+| ldap            | LDAP/AD server status
+| imap            | Outgoing email server status
+| mail_collectors | Email collector status
+| crontasks       | Automatic action status including stuck actions
+| filesystem      | Permission status for multiple GLPI directories
+| plugins         | Plugin statuses
