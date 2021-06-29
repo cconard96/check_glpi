@@ -117,7 +117,7 @@ if ($check_value eq "OK") {
     $result = 0;
 } elsif ($check_value eq "WARNING") {
     $result = 1;
-} elsif ($check_value eq "ERROR") {
+} elsif ($check_value eq "PROBLEM") {
     $result = 2;
 } else {
     $result = -1;
